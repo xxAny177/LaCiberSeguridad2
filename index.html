@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ciberseguridad</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.7; background: #f0f2f5; color: #333; padding: 20px; }
+        .container { max-width: 950px; margin: auto; background: white; padding: 50px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #1a5276; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 35px; border-left: 5px solid #2980b9; padding-left: 10px; }
+        h3 { color: #16a085; }
+        .content-box { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 15px 0; border: 1px solid #e1e1e1; }
+        img { width: 100%; border-radius: 8px; margin: 15px 0; }
+        ul { margin-bottom: 20px; }
+        li { margin-bottom: 5px; }
+        .footer { margin-top: 50px; text-align: center; font-size: 0.8em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>La Ciberseguridad Y Por Que Es Muy Importante </h1>
+        <p>La ciberseguridad es el conjunto de herramientas, políticas, conceptos de seguridad, salvaguardas, directrices y tecnologías que se utilizan para proteger los activos de una organización y de los usuarios en el entorno digital.</p>
+
+        <h2>1. La Tríada CIA y los Principios Fundamentales</h2>
+        <div class="content-box">
+            <img src="https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&q=80" alt="Tríada CIA">
+            <ul>
+                <li><strong>Confidencialidad:</strong> Garantiza que la información solo sea accesible por las entidades autorizadas. Se logra mediante cifrado, controles de acceso y autenticación.</li>
+                <li><strong>Integridad:</strong> Asegura que los datos no sean modificados, eliminados o corrompidos por actores no autorizados o fallos técnicos. Se mantiene mediante funciones hash, firmas digitales y control de versiones.</li>
+                <li><strong>Disponibilidad:</strong> Garantiza que los sistemas, redes y datos estén accesibles cuando el usuario legítimo los necesite. Se protege contra ataques DDoS, fallos de hardware o desastres naturales mediante redundancia y planes de recuperación.</li>
+            </ul>
+        </div>
+
+        <h2>2. Clasificación de las Amenazas Digitales</h2>
+        <div class="content-box">
+            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80" alt="Amenazas Digitales">
+            <h3>Malware (Software Malicioso):</h3>
+            <p>Incluye virus, gusanos (que se autorreplican), troyanos (que se disfrazan de software legítimo), spyware (que espía la actividad), y el ransomware (que cifra los datos de la víctima para exigir un rescate).</p>
+            <h3>Ingeniería Social</h3>
+            <p>Es el arte de manipular personas para que revelen información confidencial. Incluye el phishing (engaños por correo), vishing (llamadas telefónicas fraudulentas), smishing (SMS maliciosos) y el spear phishing (ataques personalizados a individuos específicos).</p>
+            <h3>Ataques de Red e Inyección</h3>
+            <p>Estos tres ciberataques tienen objetivos distintos: el DDoS busca inhabilitar un sistema saturándolo con un volumen excesivo de tráfico desde una red de dispositivos comprometidos; el ataque Man-in-the-Middle se basa en la intercepción sigilosa de comunicaciones para espiar o alterar datos entre dos partes que creen estar conectadas de forma privada; finalmente, la inyección aprovecha vulnerabilidades en la entrada de datos de una aplicación para introducir y ejecutar código malicioso que compromete la integridad o el control del sistema.</p>
+<h3>Amenazas de Identidad:</h3>
+            <p>Ataques de fuerza bruta (probar todas las combinaciones de contraseñas), credential stuffing (uso de credenciales filtradas de otros sitios) y ataques de fatiga de MFA, donde se abruma al usuario con solicitudes de autenticación para que finalmente acepte una.</p>
+<h3>Amenazas de Cadena de Suministro:</h3>
+            <p>Se producen cuando el atacante no ataca directamente el objetivo, sino a un proveedor de software o hardware que el objetivo utiliza, comprometiendo así la confianza de todo el sistema.</p>
+        </div>
+
+        <h2>3. Estrategias y Tecnologías de Defensa</h2>
+        <div class="content-box">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80" alt="Estrategia de Defensa">
+            <ul>
+                <li><strong>Zero Trust:</strong> Parte de la premisa de que no se puede confiar en nadie, ni dentro ni fuera de la red. Cada solicitud de acceso es autenticada, autorizada y cifrada antes de concederse.</li>
+                <li><strong>Control de Accesos (IAM - Identity and Access Management):</strong> Implementación del principio de "privilegio mínimo", donde cada usuario solo tiene acceso a los datos y recursos estrictamente necesarios para su función.</li>
+                <li><strong>Criptografía:</strong> Es el uso de algoritmos matemáticos para proteger los datos. Se divide en criptografía simétrica (una llave para cifrar y descifrar) y asimétrica (llaves públicas y privadas).</li>
+                <li><strong>Seguridad en Aplicaciones (DevSecOps):</strong> La integración de pruebas de seguridad directamente en el ciclo de vida del desarrollo de software (SDLC). Esto incluye escaneos de código estático (SAST) y dinámico (DAST).</li>
+<li><strong>Respuesta ante Incidentes (IR):</strong> No se trata solo de evitar el ataque, sino de saber cómo detectarlo, contenerlo, erradicar la amenaza, recuperar los sistemas y aprender del suceso. La monitorización mediante SIEM (gestión de eventos e información de seguridad) es vital para detectar anomalías en tiempo real.</li>
+
+            </ul>
+        </div>
+
+        <h2>4. Seguridad Física y Redes Avanzadas</h2>
+        <div class="content-box">
+            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80" alt="Infraestructura y Redes">
+            <ul>
+                <li><strong>Seguridad Física:</strong> Protección contra acceso no autorizado a hardware (biometría, cámaras, sensores de movimiento, extinción de incendios).</li>
+                <li><strong>Segmentación:</strong> Uso de VLANs y micro-segmentación para aislar brechas y evitar el movimiento lateral del atacante.</li>
+                <li><strong>NGFW (Firewalls de Nueva Generación):</strong> Inspección profunda de paquetes (DPI) y control de aplicaciones.</li>
+            </ul>
+        </div>
+
+        <h2>5. Normativas y Cumplimiento (Compliance)</h2>
+        <div class="content-box">
+            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80" alt="Normativas y Leyes">
+            <ul>
+                <li><strong>ISO/IEC 27001:</strong> Gestión de la seguridad de la información (SGSI).</li>
+                <li><strong>NIST CSF:</strong> Marco de referencia para infraestructura crítica.</li>
+                <li><strong>GDPR / Leyes Locales:</strong> Protección estricta de datos personales y derecho al olvido.</li>
+            </ul>
+        </div>
+
+        <h2>6. El Rol de la IA y el Futuro</h2>
+        <div class="content-box">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80" alt="Inteligencia Artificial y Humanos">
+            <p><strong>Como amenaza:</strong> Los atacantes usan modelos de lenguaje para crear correos de phishing indetectables, automatizar la búsqueda de vulnerabilidades y generar deepfakes para el fraude de identidad.</p>
+            <p><strong>Como defensa:</strong> Los equipos de seguridad utilizan modelos predictivos de aprendizaje automático para detectar comportamientos anómalos en la red que pasarían desapercibidos para los sistemas de reglas tradicionales.</p>
+        </div>
+<p>La ciberseguridad es un juego de gato y ratón constante. Mientras la tecnología de defensa avanza como el desarrollo de la criptografía poscuántica para resistir la potencia de cálculo de los futuros ordenadores cuánticos, la creatividad de los atacantes siempre busca el eslabón más débil, que casi invariablemente sigue siendo el error humano.</p>
+
+        <div class="footer">
+            <p>2026 - López Pérez Brayan</p>
+        </div>
+    </div>
+</body>
+</html>
